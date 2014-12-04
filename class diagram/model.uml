@@ -86,6 +86,17 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_QOycsHurEeSBG8ZQyJ0cyg" name="getBookingInfo"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_XWVuMHurEeSBG8ZQyJ0cyg" name="getRoom"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PgMwAHu5EeSBG8ZQyJ0cyg" name="Guest">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_XJ2B8Hu5EeSBG8ZQyJ0cyg" name="guestID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Y-f2cHu5EeSBG8ZQyJ0cyg" name="guestFName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cXpjkHu5EeSBG8ZQyJ0cyg" name="guestLName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_esgK0HuoEeSBG8ZQyJ0cyg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_es_TAHuoEeSBG8ZQyJ0cyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
